@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="resteasy-jaxb-provider-2.3.5.final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/resteasy-jaxb-provider-2.3.5.final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

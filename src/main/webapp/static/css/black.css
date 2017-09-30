@@ -1,0 +1,198 @@
+.shadow{
+    background-color:#222;
+    opacity:0.9;
+}
+.nav-ul li a:hover{
+    color: #222;
+    background-color: #fff;
+}
+.navbar-nav .dropdown-menu{
+    border:1px solid #222;
+    background-color:  #222;
+}
+h3{
+    color: #222;
+    border-bottom:2px solid #222;
+}
+.nav-tabs{
+    color: #222;
+    border-bottom: 2px solid #222;
+}
+.worknews .nav-tabs li a{
+    color: #222;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    color: #222;
+    border: 1px solid #222;
+    border-bottom-color: transparent;
+}
+.search-button{
+    background-color: transparent;
+    color: #fff;
+}
+.input-text{
+    background-color: transparent;
+    color: #fff;
+
+}
+.input-text::-webkit-input-placeholder{
+    color: #fff;
+    opacity:1;
+}
+.input-text::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #fff;
+    opacity:1;
+}
+.input-text::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #fff;
+    opacity:1;
+}
+.input-text:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #fff;
+    opacity:1;
+}
+.nav-ul li a{
+    color: #fff;
+}
+
+/*第二屏样式*/
+.entry1 a{
+    background-image: url(../img/black-entry1.png);
+}
+.entry2 a{
+    background-image: url(../img/black-entry2.png);
+}
+.newslist li{
+    border-bottom: 1px solid #f1f1f1;
+}
+.newslist li .top3{
+    color: #F9904B;
+}
+.some-file .nav-tabs li a{
+    color: #222;
+}
+.newslist li span{
+    color: #a2a2a2;
+}
+.foot-link .link-wrap a{
+    color: #5A4820;
+}
+.pagination li a{
+    color:#222;
+}
+.pagination li a:hover{
+    background-color:#222;
+    color: #fff;
+}
+.route a:hover{
+    color: #222;
+}
+h2{
+    color: #222;
+    border-bottom:1px solid #222;
+}
+.leader-name{
+    color: #222;
+}
+#about {
+    color: #999;
+}
+#about a {
+    color: #eee;
+}
+#outerLinks {
+    background: #444;
+}
+#scroll{
+    background: #444;
+    opacity: 0.5;
+}
+#scroll:hover{
+    background:#222;
+    opacity:.5;
+}
+.copyright{
+    color: #aaa;
+}
+.list-box .newslist li a:hover{
+    color:#F9904B;
+}
+.pagination li a:hover{
+    background-color:#222;
+    color: #fff;
+}
+.route a:hover{
+    color: #222;
+}
+.latest-list{
+    background-color: #ccc;
+}
+.latest-list li{
+    border-bottom: 1px solid #f1f1f1;
+}
+.depart-left-nav{
+    background-color: #E0D9C9;
+    border: 1px solid #222;
+}
+.depart-left-nav li a:active,.depart-left-nav li a:hover,.depart-left-nav li a:focus,.depart-left-nav li:active>a{
+    background-color:#444;
+    color: #fff;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
+    background-color: #444;
+    color: #fff;
+}
+.depart-left-nav h3{
+    background-color:#222;
+    color: #fff;
+}
+.leader-info p:first-child{
+    color: #222;
+}
+.leader-name{
+    color: #222;
+}
+.department-manager{
+    margin-top: 20px;
+    font-size:1.5em;
+    font-weight: bold;
+}
+.download-item a{
+    color: #222;
+}
+
+/*404*/
+.wrong-wrap{
+    background: -moz-linear-gradient(top, #444 50%, #D0D0D0 50%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#444), color-stop(50%,#D0D0D0));
+    background: -webkit-linear-gradient(top, #444 50%,#D0D0D0 50%);
+    background: -o-linear-gradient(top, #444 50%,#D0D0D0 50%);
+    background: -ms-linear-gradient(top, #444 50%,#D0D0D0 50%);
+    background: linear-gradient(to bottom, #444 50%,#D0D0D0 50%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.wrong-wrap .back-wrap .btn-default{
+    background-color: #444;
+    color: #fff;
+}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus{
+    background-color: #444;
+}
+.btn-download{
+    background-color: #444;
+    color: #fff;
+}
+.btn-download:hover{
+    background-color: #222;
+    color: #fff;
+}
+@media screen and (max-width: 767px){
+    .nav-ul li a:hover{
+        background-color: #444;
+        color: #fff;
+    }
+    .nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+        background-color: #444;
+    }
+}

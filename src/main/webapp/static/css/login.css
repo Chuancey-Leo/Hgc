@@ -1,0 +1,45 @@
+*{
+	margin: 0 auto;
+	padding: 0 0;
+	font-family: "microsoft yahei";
+}
+body{
+	background-image: url(../img/bg.png);
+}
+.bg-white{
+	background-color: white;
+	color: #4d4d4d;
+}
+.pd-lg{
+	padding:25px;
+}
+.form-control,.form-group .form-control {
+  border: 0;
+  background-image: linear-gradient(#428bca, #428bca), linear-gradient(#D2D2D2, #D2D2D2);
+  background-size: 0 2px, 100% 1px;
+  background-repeat: no-repeat;
+  background-position: center bottom, center calc(100% - 1px);
+  background-color: transparent;
+  transition: background 0s ease-out;
+  box-shadow: none;
+  font-weight: 400;
+}
+.form-group {
+  position: relative;
+}
+.form-group.label-floating label.control-label {
+  position: absolute;
+  pointer-events: none;
+  transition: 0.3s ease all;
+}
+.glyphicon{
+	color:#428bca
+}
+.row{
+	padding: 50px;
+	border-radius: 2px;
+    box-shadow: none;
+}
+form .panel-body input{
+	box-shadow: none !important;
+}

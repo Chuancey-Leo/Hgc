@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.wingstudio.dao.ScrollPictureDao">
+	<resultMap type="ScrollPicture" id="ScrollPictureResult">
+		<result property="id" column="id"/>
+		<result property="imgUrl" column="imgUrl"/>
+	</resultMap>
+	<update id="update" parameterType="Map">
+		UPDATE hgc_scrollPicture
+		<set>
+			<if test="imgUrl!=null and imgUrl!='' ">
+				imgUrl=#{imgUrl},
+			</if>
+		</set>
+		WHERE id=#{id}
+	</update>
+	<select id="list" resultMap="ScrollPictureResult">
+		SELECT * FROM hgc_scrollPicture ORDER by id ASC
+	</select>
+</mapper>

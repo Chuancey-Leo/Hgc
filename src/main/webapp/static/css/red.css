@@ -1,0 +1,204 @@
+.shadow{
+    background-color:#CB1C1D;
+    opacity:0.9;
+}
+.nav-ul li a:hover{
+    color: #CB1C1D;
+    background-color: #fff;
+}
+.navbar-nav .dropdown-menu{
+    border:1px solid #CB1C1D;
+    background-color:  #CB1C1D;
+}
+h3{
+    color: #CB1C1D;
+    border-bottom:2px solid #CB1C1D;
+}
+.nav-tabs{
+    color: #CB1C1D;
+    border-bottom: 2px solid #CB1C1D;
+}
+.worknews .nav-tabs li a{
+    color: #CB1C1D;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    color: #CB1C1D;
+    border: 1px solid #CB1C1D;
+    border-bottom-color: transparent;
+}
+.search-button{
+    background-color: transparent;
+    color: #fff;
+}
+.input-text{
+    background-color: transparent;
+    color: #fff;
+
+}
+.input-text::-webkit-input-placeholder{
+    color: #fff;
+    opacity:1;
+}
+.input-text::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #fff;
+    opacity:1;
+}
+.input-text::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #fff;
+    opacity:1;
+}
+.input-text:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #fff;
+    opacity:1;
+}
+.nav-ul li a{
+    color: #fff;
+}
+.nav-ul .navitem{
+}
+
+/*第二屏样式*/
+.entry1 a{
+    background-image: url(../img/red-entry1.png);
+}
+.entry2 a{
+    background-image: url(../img/red-entry2.png);
+}
+.newslist li{
+    border-bottom: 1px solid #f1f1f1;
+}
+.newslist li .top3{
+    color: #CB1C1D;
+}
+.newslist li span{
+    color: #a2a2a2;
+}
+.some-file .nav-tabs li a{
+    color: #CB1C1D;
+}
+
+#scroll:hover{
+    background:#C62822;
+    opacity:.5;
+}
+#outerLinks {
+    background: #C62822;
+}
+.pagination li a{
+    color:#CB1C1D;
+}
+.pagination li a:hover{
+    background-color:#CB1C1D;
+    color: #fff;
+}
+.route a:hover{
+    color: #CB1C1D;
+}
+h2{
+    color: #CB1C1D;
+    border-bottom:1px solid #CB1C1D;
+}
+.leader-name{
+    color: #CB1C1D;
+}
+#about {
+    color: #999;
+}
+#about a {
+    color: #eee;
+}
+.foot-link{
+    background-color:#E6E6E7;
+}
+.copyright{
+    color: #aaa;
+}
+.list-box .newslist li a:hover{
+    color:#8C0000;
+}
+.pagination li a:hover{
+    background-color:#CB1C1D;
+    color: #fff;
+}
+.route a:hover{
+    color: #CB1C1D;
+}
+.latest-list{
+    background-color: #E0D9C9;
+}
+.latest-list li{
+    border-bottom: 1px solid #f1f1f1;
+}
+.depart-left-nav{
+    background-color: #E0D9C9;
+    border: 1px solid #CB1C1D;
+}
+.depart-left-nav li a:active,.depart-left-nav li a:hover,.depart-left-nav li a:focus,.depart-left-nav li:active>a{
+    background-color:#CB1C1D;
+    color: #fff;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
+    background-color: #CB1C1D;
+    color: #fff;
+}
+.depart-left-nav h3{
+    background-color:#CB1C1D;
+    color: #fff;
+}
+.leader-info p:first-child{
+    color: #CB1C1D;
+}
+.leader-name{
+    color: #CB1C1D;
+}
+.department-manager{
+    margin-top: 20px;
+    font-size:1.5em;
+    font-weight: bold;
+}
+.download-item a{
+    color: #CB1C1D;
+}
+
+@media screen and (max-width: 767px) {
+    .dropdown-menu{
+        background-color: #CD0505;
+    }
+}
+
+/*404*/
+.wrong-wrap{
+    background: -moz-linear-gradient(top, #CB1C1D 50%, #D0D0D0 50%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#CB1C1D), color-stop(50%,#D0D0D0));
+    background: -webkit-linear-gradient(top, #CB1C1D 50%,#D0D0D0 50%);
+    background: -o-linear-gradient(top, #CB1C1D 50%,#D0D0D0 50%);
+    background: -ms-linear-gradient(top, #CB1C1D 50%,#D0D0D0 50%);
+    background: linear-gradient(to bottom, #CB1C1D 50%,#D0D0D0 50%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.wrong-wrap .back-wrap .btn-default{
+    background-color: #CB1C1D;
+    color: #fff;
+}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus{
+    background-color: #CB1C1D;
+    /*border:none;*/
+}
+.btn-download{
+    background-color: #CB1C1D;
+    color: #fff;
+}
+.btn-download:hover{
+    background-color: darkred;
+    color: #fff;
+}
+@media screen and (max-width: 767px){
+    .nav-ul li a:hover{
+        background-color: #f53839;
+        color: #fff;
+    }
+    .nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+        background-color: #f53839;
+    }
+}

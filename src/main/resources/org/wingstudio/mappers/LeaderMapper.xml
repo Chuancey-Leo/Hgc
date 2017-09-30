@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.wingstudio.dao.LeaderDao">
+	<resultMap type="Leader" id="LeaderResult">
+		<result property="id" column="id"/>
+		<result property="post" column="post"/>
+		<result property="userName" column="userName"/>
+		<result property="phone" column="phone"/>
+		<result property="job" column="job"/>
+		<result property="avatar" column="avatar"/>
+	</resultMap>
+
+	<select id="list" resultMap="LeaderResult">
+		SELECT * FROM hgc_leader ORDER BY id ASC
+	</select>
+
+	<insert id="addLeader" parameterType="Leader">
+		INSERT INTO hgc_leader VALUES (null,#{post},#{userName},#{phone},#{job}
+		,#{avatar});
+	</insert>
+
+	<delete id="delete" parameterType="Integer">
+		DELETE FROM hgc_leader WHERE id=#{id};
+	</delete>
+
+	<update id="updateLeader" parameterType="Leader">
+		update hgc_leader
+		<set>
+			<if test="avatar!=null and avatar!='' ">
+				avatar=#{avatar},
+			</if>
+			<if test="userName!=null and userName!='' ">
+				userName=#{userName},
+			</if>
+			<if test="post!=null and post!='' ">
+				post=#{post},
+			</if>
+			<if test="job!=null and job!=''  ">
+				job=#{job},
+			</if>
+			<if test="phone!=null and phone!=''">
+				phone=#{phone}
+			</if>
+		</set>
+		where id=#{id}
+	</update>
+</mapper> 

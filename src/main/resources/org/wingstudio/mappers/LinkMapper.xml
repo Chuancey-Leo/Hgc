@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.wingstudio.dao.LinkDao">
+	<resultMap type="Link" id="LinkResult">
+		<result property="id" column="id"/>
+		<result property="link" column="link"/>
+		<result property="linkName" column="linkName"/>
+	</resultMap>
+
+	<insert id="add" parameterType="Link">
+		INSERT INTO hgc_link VALUES (null,#{link},#{linkName});
+	</insert>
+
+	<select id="list" parameterType="Map" resultMap="LinkResult">
+		SELECT * FROM hgc_link ORDER BY id DESC
+
+	</select>
+
+	<select id="getTotal" parameterType="Map" resultType="Long">
+		SELECT COUNT(*) FROM hgc_link
+	</select>
+
+	<select id="findLinkById" parameterType="Integer" resultMap="LinkResult">
+		SELECT * FROM hgc_link WHERE id=#{id}
+	</select>
+
+	<update id="updateLink" parameterType="Map">
+		UPDATE hgc_link
+		<set>
+			linkName=#{linkName},
+			link=#{link}
+		</set>
+		WHERE id=#{id}
+	</update>
+
+	<delete id="deleteLink" parameterType="Integer">
+		DELETE FROM hgc_link WHERE id=#{id}
+	</delete>
+</mapper>

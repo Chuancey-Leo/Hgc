@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.wingstudio.dao.PictureDao">
+	<resultMap type="Picture" id="PictureResult">
+		<result property="id" column="id"/>
+		<result property="imgUrl" column="imgUrl"/>
+		<result property="flag" column="flag"/>
+	</resultMap>
+	<select id="add" parameterType="Picture">
+		INSERT INTO hgc_picture VALUES
+		(null,#{imgUrl},#{flag});
+	</select>
+
+	<select id="find" resultMap="PictureResult">
+		SELECT * FROM hgc_picture ORDER BY flag DESC LIMIT 1
+	</select>
+	<select id="remove" resultType="Integer">
+		DELETE FROM hgc_picture ORDER BY flag ASC LIMIT 1
+	</select>
+	<select id="list" resultMap="PictureResult">
+		SELECT * FROM hgc_picture ORDER BY flag DESC LIMIT 5
+	</select>
+
+	<select id="listAll" resultMap="PictureResult">
+		SELECT * FROM hgc_picture
+	</select>
+
+	<delete id="delete">
+		DELETE FROM hgc_picture WHERE id=#{id}
+	</delete>
+</mapper> 

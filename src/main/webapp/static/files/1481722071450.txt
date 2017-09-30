@@ -1,0 +1,146 @@
+
+jump-wall:
+sslocal -c /home/liao/shadowsocks.json
+
+
+computer-program:
+http://www.luogu.org/ 
+
+ubuntu see picture:eog xx.jpg
+
+untar:
+tar -zxvf xxx.tar.gz
+
+unzip test.zip -d /root/ 
+rar x xxx.rar xxx
+
+
+https://www.green-jsq.org/shiyong/67.html
+
+android opensource:
+http://p.codekk.com/
+
+picture:
+http://588ku.com/
+
+webmodels:
+http://www.777moban.com/
+http://www.maike01.com/
+https://www.haook.cn/
+
+jiaowu bug:
+http://jiaowu.sicau.edu.cn/photo/20140244.jpg
+
+git
+ppag3703fbcbad0f@sohu.com
+xx19950624
+
+
+https://www.web-tinker.com/article/20158.html
+
+202.115.176.33
+
+learn markdown:http://www.ituring.com.cn/article/23
+
+http://blog.csdn.net/leixiaohua1020/article/details/43870599
+
+http://www.polyv.net/
+
+computer:
+http://10.128.10.10/
+
+baidu develop:
+http://developer.baidu.com/wiki/index.php?title=docs/pcs/guide/app_create
+
+
+
+design:
+http://www.aboutcg.com/
+
+
+
+android:
+http://www.jdzhao.com/
+
+android:
+http://gold.xitu.io/#/
+http://www.jianshu.com/p/780658b79227
+
+game picture:
+http://www.66rpg.com/
+
+
+listening:
+http://musicforprogramming.net/?eighteen
+
+learn:
+www.36kr.com
+http://www.iheima.com/
+
+qq-file:
+/.deepinwine/qqintl/drive_c/Program Files/Tencent/QQIntl/Users/1149790323/FileRecv$
+
+jquery-plugin:
+http://www.jq22.com
+
+pdf-look:
+evince
+
+picture-look:
+shotwell
+
+http://wenku.baidu.com/view/65845fbdfd0a79563c1e724b.html
+
+mysql:
+115.28.146.144
+tomcat:
+115.29.51.199
+
+online-look:http://www.cnblogs.com/zhangzhxb/p/5984766.html
+
+https://my.oschina.net/robin3d/blog/206900
+https://github.com/coolwanglu/pdf2htmlEX/wiki/Download
+
+http://www.cnblogs.com/iamzhanglei/archive/2011/08/10/2133840.html
+http://blog.csdn.net/catoop/article/details/20930735
+
+viewerjs:http://viewerjs.org/
+
+git push -u origin master
+
+http://yunzhu.iteye.com/blog/2177923
+
+http://www.cnblogs.com/xiaochangwei/p/5239104.html
+
+http://localhost:8080/Hgc/static/ViewerJS/#../1.pdf
+
+soffice -headless -accept="socket,host=127.0.0.1,port=8100;urp;" -nofirststartwizard
+
+windows字体库迁移至linux
+http://blog.csdn.net/shanelooli/article/details/7212812
+
+https://blog.coding.net/
+
+agriculture
+http://www.intel-agri.com/
+
+blog
+http://blog.opskumu.com/
+
+http://www.doc88.com/p-638754549048.html
+
+阮一峰博客:http://www.ruanyifeng.com/
+RubyLouvre:http://www.cnblogs.com/rubylouvre/
+唐巧：http://blog.devtang.com/
+张云龙：https://github.com/fouber/blog
+google developer:https://developers.google.com
+
+科技:http://techcrunch.cn/
+learn:https://www.sitepoint.com/
+
+
+http://www.promocodewatch.com/
+https://beamery.com/
+
+
+http://www.cnblogs.com/iuyes/p/4187571.html

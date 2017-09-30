@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="resteasy-jettison-provider">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/resteasy-jettison-provider.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

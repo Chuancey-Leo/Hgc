@@ -1,0 +1,100 @@
+jump-wall:
+sslocal -c /home/liao/shadowsocks.json
+
+
+computer-program:
+http://www.luogu.org/ 
+
+ubuntu see picture:eog xx.jpg
+
+untar:
+tar -zxvf xxx.tar.gz
+
+unzip test.zip -d /root/ 
+rar x xxx.rar xxx
+
+
+webmodels:
+http://www.777moban.com/
+http://www.maike01.com/
+https://www.haook.cn/
+
+jiaowu bug:
+http://jiaowu.sicau.edu.cn/photo/20140244.jpg
+
+git
+ppag3703fbcbad0f@sohu.com
+xx19950624
+
+202.115.176.33
+
+
+design:
+http://www.aboutcg.com/
+
+game picture:
+http://www.66rpg.com/
+
+
+listening:
+http://musicforprogramming.net/?eighteen
+
+learn:
+www.36kr.com
+http://www.iheima.com/
+
+jquery-plugin:
+http://www.jq22.com
+
+pdf-look:
+evince
+
+
+https://my.oschina.net/robin3d/blog/206900
+https://github.com/coolwanglu/pdf2htmlEX/wiki/Download
+
+http://www.cnblogs.com/iamzhanglei/archive/2011/08/10/2133840.html
+http://blog.csdn.net/catoop/article/details/20930735
+
+viewerjs:http://viewerjs.org/
+
+git remote add origin git@github.com:michaelliao/learngit.git
+git push -u origin master
+
+http://yunzhu.iteye.com/blog/2177923
+
+http://www.cnblogs.com/xiaochangwei/p/5239104.html
+
+http://localhost:8080/Hgc/static/ViewerJS/#../1.pdf
+
+soffice -headless -accept="socket,host=127.0.0.1,port=8100;urp;" -nofirststartwizard
+
+https://blog.coding.net/
+
+agriculture
+http://www.intel-agri.com/
+
+阮一峰博客:http://www.ruanyifeng.com/
+RubyLouvre:http://www.cnblogs.com/rubylouvre/
+唐巧：http://blog.devtang.com/
+张云龙：https://github.com/fouber/blog
+google developer:https://developers.google.com
+
+科技:http://techcrunch.cn/
+learn:https://www.sitepoint.com/
+
+
+http://www.promocodewatch.com/
+https://beamery.com/
+
+https://zh.wikipedia.org/wiki
+
+mysqldump -uroot -p test > test.sql
+
+java -jar file.jar
+
+
+10.2.130.18`s public network:218.6.135.168
+
+rdesktop -f -a 16 -r sound:local -u liao -p xx19950624 -r clipboard:PRIMARYCLIPBOARD 10.2.130.18
+
